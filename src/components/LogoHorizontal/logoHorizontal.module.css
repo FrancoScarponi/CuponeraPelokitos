@@ -1,0 +1,57 @@
+.cls_1 {
+  fill: #005ca8;
+}
+
+.cls_2 {
+  fill: #51ad32;
+}
+
+.cls_3 {
+  fill: #e20613;
+}
+
+.cls_4 {
+  fill: #ffd400;
+}
+
+.amarillo{
+  animation: amarillo_move 1.5s infinite alternate;
+}
+
+.rojo{
+  animation: rojo_move 1.5s infinite alternate;
+  animation-delay: 400ms;
+}
+
+.verde{
+  animation: verde_move 1.5s infinite alternate;
+  animation-delay: 800ms;
+}
+
+
+@keyframes amarillo_move {
+  from  {
+    transform: translateX(-10px) translateY(-15px)
+  }
+  to{
+    transform: translateX(0) translateY(0)
+  }
+}
+
+@keyframes rojo_move {
+  from  {
+    transform: translateY(-15px)
+  }
+  to{
+    transform:  translateY(0)
+  }
+}
+
+@keyframes verde_move {
+  from  {
+    transform: translateX(10px) translateY(-15px)
+  }
+  to{
+    transform: translateX(0) translateY(0)
+  }
+}

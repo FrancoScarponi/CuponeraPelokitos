@@ -1,0 +1,21 @@
+.nav_item{
+  color: rgb(48, 90, 159);
+  font-size: 20px;
+  padding: 6px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.nav_item:hover{
+  color: white;
+  background-color: rgb(48, 90, 159);
+  transition: 200ms ease-in-out;
+}
+
+@media (max-width:768px){
+  .nav_item:hover{
+    color: white;
+    background-color: rgba(59, 107, 183, 0.84);
+    transition: 200ms ease-in-out;
+  }
+}
